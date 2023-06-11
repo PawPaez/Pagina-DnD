@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -13,46 +14,42 @@
                 <a class="navItem" href="index.html">Home</a>
             </span>
             <span>
-                <a class="mavItem" href="#sinopsis">Sinopsis</a>
+                <a class="navItem" href="#sinopsis">Sinopsis</a>
             </span>
             <span>
                 <a class="navItem" href="formulario.html">Newletter</a>
             </span>
         </nav>
-        <section id="banner">
-            <div id="contenedorTitulo">
-                <h1 id="Titulo">Dangeons & Dragons</h1>
-            </div>
-        </section>
+        <h4>Llena este formulario para tener todas las noticias nuevas sobre el juego</h4>
      </header>  
      <form id="formulario">
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="nombreCompleto">Nombre Completo</label>
+            <input type="text" id="nombreCompleto" name="nombreCompleto" class="contenedor" required>
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" min="10" class="contenedor" required>
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="gmail">Email</label>
+            <input type="email" name="email" id="email" class="contenedor" required>
         </div>
         <div>
-            <input type="text">
+            <input type="submit" value="Enviar">
         </div>
      </form>
 </body>
 <footer>
     <span>
-        <a href="">
-            <img src="Recursos/IconFacebook.jpeg" alt="">
-            <img src="Recursos/IconInstagram.jpeg" alt="">
-            <img src="Recursos/IconTwitter.jpeg" alt="">
+        <a href="#" class="iconoRedes">
+            <img src="Recursos/IconFacebook.jpeg" alt="facebook">
+            <img src="Recursos/IconInstagram.jpeg" alt="instagram">
+            <img src="Recursos/IconTwitter.jpeg" alt="twitter">
         </a>
     </span>
     <span>
-        <p>iformacion de contacto</p>
+        <p>informacion de contacto</p>
         <p>pawpaez.99@gmail.com</p>
     </span>
 </footer>

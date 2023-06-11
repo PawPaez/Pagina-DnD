@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+h1, h2, p{
+    text-align: center;
+}
+
+.navItem{
+    font-size: large;
+    text-transform: uppercase;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.navItem:hover{
+    background-color: gray;
+    color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+
+#banner{
+    position: relative;
+    background-image: url("https://i.pinimg.com/originals/cf/7e/e0/cf7ee09a0dd2019f099f06eaa177b447.png");
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contenedorTitulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    font-family: 'Alegreya', serif;
+}
+
+#titulo{
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards span img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+}
+
+.cards span h4{
+    text-align: center;
+}
+
+.cards span p{
+    text-align: center;
+}
+
+.imagen:hover{
+  opacity: 0.8;
+}
+
+.iconoRedes img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+#formulario{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/717/536/910/solarized-colorscheme-dungeons-and-dragons-minimalism-vector-simple-background-hd-wallpaper-preview.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.contenedor{
+    display: flex;
+    width: 200px;
+}
